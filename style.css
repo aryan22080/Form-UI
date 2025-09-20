@@ -1,0 +1,43 @@
+button{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+*{
+    text-align: center;
+}
+.box{
+    width: 700px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+progress{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 120px;
+}
+h2{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 100px ;
+
+}
+.right-panel-container {
+    display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 300px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
